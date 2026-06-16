@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#f0f0f0;
+    font-family:Arial, sans-serif;
+}
+
+.id-card{
+    width:350px;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.college-name{
+    background:#004aad;
+    color:white;
+    padding:15px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.profile{
+    width:180px;
+    height:180px;
+    margin:20px auto;
+    padding:5px;
+    border:4px solid #000;
+    border-radius:50%;
+}
+
+.profile img{
+    width:100%;
+    height:100%;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.details{
+    padding:20px;
+}
+
+.details h2{
+    color:#004aad;
+    margin-bottom:15px;
+}
+
+.details p{
+    margin:10px 0;
+    font-size:16px;
+}

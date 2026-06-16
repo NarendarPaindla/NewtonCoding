@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family:Arial;
+            padding:40px;
+        }
+        input,button{
+            padding:10px;
+            width:300px;
+            font-size:16px;
+            margin:10px 0;
+        }
+        button{
+            width:100px;
+            background-color: #007bff;
+            color: #ffffff;
+            border-radius:40px;
+            transition: 0.3s;
+        }
+        .deleteBtn{
+            background-color: #dc3545;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <h2>Dynamic To-Do List</h2>
+    <input type="text" id="taskInput" placeholder="Add a  task">
+    <button onclick="addTask()">Add</button>
+    <ul id="taskList"></ul>
+    <Script>
+        function addTask(){
+            let input=document.getElementById("taskInput");
+            let task=input.value;
+            if(task==="") return;
+            let li=document.createElement("li");
+            li.innerHTML=`${task} <button class="deleteBtn" onclick="this.parentElement.remove()">Delete</button>`;
+            document.getElementById("taskList").appendChild(li);
+            input.value="";
+        }
+    </Script>
+</body>
+</html>

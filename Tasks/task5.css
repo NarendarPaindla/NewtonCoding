@@ -1,0 +1,52 @@
+h1{
+    width:300px;
+    background:yellow;
+}
+.home{
+    background:yellow;
+}
+
+/* .box{
+    display:inline-block;
+    width:150px;
+    height:100px;
+    background:skyblue;
+    border:10px solid orange;
+} */
+
+h1::nth-child(2){
+    display:none;
+}
+
+nav{
+    display:flex;
+    background:#2563EB;
+    padding:20px;
+    justify-content:center;
+    align-items:center;
+}
+.box{
+    color:white;
+    width:150px;
+    height:100px;
+    margin:10px;
+    text-align:center;
+    line-height:100px;
+    position:absolute;
+    
+    
+}
+
+.box1{
+    background:red;
+    position:static;
+}
+.box2{
+    background:green;
+    position:relative;
+
+}
+.box3{
+    background:blue;
+    
+}

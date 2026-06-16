@@ -1,0 +1,105 @@
+
+
+
+
+/* p + p{
+    color:yellow;
+} */
+
+/* [href]{
+    color:green;
+}
+
+[src]{
+    color:blue;
+} */
+
+/* input[type="text"]{
+    border :2px solid red;
+} */
+
+input[type="submit"]{
+    margin-top:20px;
+    background-color:green;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+}
+
+[href]{
+    color:green;
+}
+
+a[href$="com"]{
+    color:pink;
+}
+a[href$="in"]{
+    color:blue;
+}
+
+a[href*="amazon"]{
+    color:orange;
+}
+
+a:visited{
+    color:indigo;
+}
+
+button{
+    background:black;
+    color:white;
+}
+button:hover{
+    background-color:yellow;
+}
+
+button:active
+{
+ transform:scale(1.5);
+}
+
+input:focus{
+    border:2px solid red;
+}
+
+.btn:hover{
+  background:red;
+}
+
+.btn:active{
+    transform:scale(1.5);
+}
+
+/* li:first-child{
+    color:blue;
+}
+
+li:last-child{
+    color:red;
+} */
+
+/* li:nth-child(4){
+    color:green;
+} */
+
+li:nth-child(odd)
+{
+    background-color:red;
+}
+
+.sathish::first-letter{
+    font-size:50px;
+    color:red;
+}
+.sathish::first-line{
+    font-size:50px;
+    color:red;
+}
+
+.sathish::before{
+    content:"👌"
+}
+
+.sathish::after{
+    content:"⛷️";
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 15px;
+}
+
+#cname{
+    color:blue;
+}
+
+nav,a{
+    color:green;
+}
+.wh{
+    color:red;
+}
+.footer{
+    color:gray;
+}

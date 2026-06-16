@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Driving Eligibility Checker</h2>
+    <input type="number" id="ageInput" placeholder="Enter the age">
+    <button onclick="checkEligibity()">Check</button>
+    <p id="result"></p>
+    <script>
+        function checkEligibity(){
+           let age=document.getElementById("ageInput").value;
+           let output=document.getElementById("result");
+           if(age>=18){
+            output.innerHTML="you are eligible to drive";
+           }else{
+            output.innerHTML="You are not eligible to drive";
+           }
+        }
+    </script>
+</body>
+
+</html>

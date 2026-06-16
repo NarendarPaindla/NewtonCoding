@@ -1,0 +1,19 @@
+#box{
+  display:flex;
+  align-items:flex-end;
+  height:250px;
+
+}
+
+.box1{
+background:green;
+}
+
+.box2{
+background:red;
+
+}
+
+.box3{
+background:yellow;
+}

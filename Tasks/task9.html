@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Dashboard</title>
+    <link rel="stylesheet" href="task9.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>Research Ops</h2>
+            <span>PHASE III CENTER</span>
+        </div>
+
+        <ul class="menu">
+            <li class="active">Dashboard</li>
+            <li>Users</li>
+            <li>Trials</li>
+            <li>Patients</li>
+            <li>Enrollments</li>
+            <li>Reports</li>
+        </ul>
+
+        <div class="profile">
+            <img src="https://via.placeholder.com/50">
+            <div>
+                <h4>Dr. Aris Thorne</h4>
+                <p>Chief Investigator</p>
+            </div>
+        </div>
+
+    </aside>
+
+    <!-- Main Content -->
+
+    <main class="main">
+
+        <!-- Navbar -->
+
+        <header class="navbar">
+
+            <input
+                type="text"
+                placeholder="Search trials, patients, or protocols..."
+            >
+
+            <div class="nav-right">
+                🔔
+                <button>CTMS Admin</button>
+            </div>
+
+        </header>
+
+        <!-- Dashboard Heading -->
+
+        <section class="heading">
+
+            <div>
+                <h1>Operational Dashboard</h1>
+
+                <p>
+                    Real-time clinical monitoring for Phase III Oncology trials.
+                </p>
+            </div>
+
+            <div class="actions">
+                <button class="filter-btn">
+                    Filter Views
+                </button>
+
+                <button class="new-btn">
+                    + New Study
+                </button>
+            </div>
+
+        </section>
+
+        <!-- Stats -->
+
+        <section class="stats">
+
+            <div class="card">
+                <h4>TOTAL TRIALS</h4>
+                <h2>124</h2>
+            </div>
+
+            <div class="card">
+                <h4>TOTAL PATIENTS</h4>
+                <h2>3,892</h2>
+            </div>
+
+            <div class="card">
+                <h4>ENROLLMENTS</h4>
+                <h2>842</h2>
+            </div>
+
+            <div class="card">
+                <h4>ACTIVE STUDIES</h4>
+                <h2>86</h2>
+            </div>
+
+        </section>
+
+        <!-- Charts -->
+
+        <section class="charts">
+
+            <div class="chart-box large-chart">
+
+                <div class="chart-title">
+                    Participant Enrollment
+                </div>
+
+                <div class="bars">
+
+                    <div class="bar b1"></div>
+                    <div class="bar b2"></div>
+                    <div class="bar b3"></div>
+                    <div class="bar b4"></div>
+                    <div class="bar b5"></div>
+                    <div class="bar b6"></div>
+
+                </div>
+
+            </div>
+
+            <div class="chart-box">
+
+                <div class="chart-title">
+                    Trial Outcomes
+                </div>
+
+                <div class="circle-chart"></div>
+
+            </div>
+
+        </section>
+
+        <!-- Table -->
+
+        <section class="table-section">
+
+            <div class="table-header">
+
+                <h2>
+                    Top Performing Clinical Trials
+                </h2>
+
+                <a href="#">
+                    Export Full Report
+                </a>
+
+            </div>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Protocol ID</th>
+                        <th>Trial Name</th>
+                        <th>Site</th>
+                        <th>Enrollment</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>P101</td>
+                        <td>Oncology Trial A</td>
+                        <td>New York</td>
+                        <td>234</td>
+                        <td>Active</td>
+                    </tr>
+
+                    <tr>
+                        <td>P102</td>
+                        <td>Oncology Trial B</td>
+                        <td>Chicago</td>
+                        <td>189</td>
+                        <td>Active</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>

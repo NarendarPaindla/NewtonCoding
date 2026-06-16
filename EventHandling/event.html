@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            background:red;
+            width:200px;
+            height:200px;
+        }
+    </style>
+</head>
+<body>
+   <div id="box"></div>
+    <button id="btn">change color</button>
+    <script>
+
+      const bx=document.getElementById("box");
+      const button=document.getElementById("btn");
+      button.addEventListener("click",()=>{
+           bx.style.background="green";
+      })
+      bx.addEventListener("mouseover",()=>{
+        bx.style.background="blue";
+      })
+      bx.addEventListener("mouseleave",()=>{
+        bx.style.background="red";
+      })
+      bx.addEventListener("mouseenter",()=>{
+        bx.style.background="yellow";
+      })
+        
+    </script>
+</body>
+</html>

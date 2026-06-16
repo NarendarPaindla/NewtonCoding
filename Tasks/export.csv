@@ -1,0 +1,126 @@
+﻿"Title","Description","Status","Pending Evaluations","Total Submissions","Open Evaluation"
+"Html and CSS Project Assignment-1","responsive web design","In Progress","14","14","https://bytexl.app/nimbus-evaluations/44rsbecnk"
+"Spring Boot CRUD — Users & Products","Build a Spring Boot 3 app with two models: User and Product.
+
+Endpoints (8 total, 4 per model):
+POST /users • GET /users/{id} • PUT/PATCH /users/{id} • DELETE /users/{id}
+POST /products • GET /products/{id} • PUT/PATCH /products/{id} • DELETE /products/{id}
+
+Rules: Any DB (H2/MySQL/Postgres/Mongo). Validate: User→ name req, unique email; Product→ name req, price > 0. Return JSON with proper HTTP codes and not-found handling.
+
+API Evidence (must submit):
+Test all 8 endpoints (Postman/curl). Take clear screenshots (request + response). Paste into a Word doc in Google Drive titled API-Proof-<your-name> with brief captions. Share as “Anyone with link can view”.
+
+Submission:
+Public repo spring-crud-users-products-<your-name> with README (setup, run, DB config, sample JSON).
+Paste GitHub URL + Google Drive doc link in the LMS.
+
+Grading (100): CRUD 60, Validation/Errors 20, README/Git 10, Evidence 10.","Closed","0","0","https://bytexl.app/nimbus-evaluations/43vb8xuvh"
+"Rock–Paper–Scissors (Logic • RNG • Conditions)","Build a Rock–Paper–Scissors game to practice basic logic, random choice, and condition checks.
+
+Requirements
+
+Player picks Rock/Paper/Scissors (buttons or keys).
+
+Computer chooses randomly.
+
+Display round result (Win/Lose/Tie) and running score.
+
+Update UI without page reload; handle ties cleanly.
+
+Bonus (optional)
+
+Best-of-N match + Reset.
+
+Round history list.
+
+Keyboard shortcuts.
+
+Responsive, accessible UI (labels, focus states).
+
+Tech
+
+Vanilla HTML/CSS/JS only.
+
+Files: index.html, styles.css, app.js.
+
+Submission
+
+Public GitHub repo: rps-game-<your-name>.
+
+README: overview, how to run, features checklist, screenshot/GIF.
+
+(Optional) GitHub Pages link.
+
+Paste your GitHub URL (and live link) in the LMS.
+
+Grading (100): Features 60, Code quality 20, UI/UX 10, Git & README 10.","Closed","2","2","https://bytexl.app/nimbus-evaluations/43vb8fcgr"
+"To-Do List Web App (DOM, Events, localStorage)","Build a To-Do List Web App to practice DOM manipulation, event handling, and localStorage.
+
+Requirements
+
+Add task via input + button (or Enter)
+
+Toggle complete/incomplete
+
+Delete a task
+
+Persist tasks with localStorage and render on reload
+
+Bonus (optional)
+
+Edit task text
+
+Filters: All | Active | Completed
+
+Remaining count + “Clear completed”
+
+Responsive + basic a11y
+
+Tech
+
+Vanilla HTML/CSS/JS only
+
+Files: index.html, styles.css, app.js
+
+Submission
+
+Public GitHub repo named todo-webapp-<your-name>
+
+README: overview, run steps, feature checklist, screenshot/GIF
+
+(Optional) Deploy with GitHub Pages and add the live link
+
+Grading (100)
+Features 60, Code quality 20, UI/UX 10, Git & README 10.","Closed","2","2","https://bytexl.app/nimbus-evaluations/43vb88yjr"
+"OOPS Documentation","Create a documentation on OOPS concept using examples","Closed","0","0","https://bytexl.app/nimbus-evaluations/43u5vq3nb"
+"sample asssignments","456tiyu","Closed","0","0","https://bytexl.app/nimbus-evaluations/43frgryxr"
+"Full-Stack Project Submission","🔹 Eligible Group Numbers:  
+- IOTA6 to IOTA23  
+- CSB1 to CSB24  
+- CSA1 to CSA24
+
+🔹 You are required to submit:  
+- Project Title  
+- Group Number  
+- GitHub Repo Link  
+- Live Demo Link (if any)  
+- Selected Project Name 
+- Screenshot or Demo Video Link","Closed","4","4","https://bytexl.app/nimbus-evaluations/43dt2pabc"
+"Product Management API Assignment","https://github.com/NarendarPaindla/ProductApiProjectSpringBoot","Closed","50","97","https://bytexl.app/nimbus-evaluations/43b7myscw"
+"IMDB MINI PROJECT","https://docs.google.com/document/d/1nYXUMTE8ngddZ5T69sAfi_Wc5bkXudxXbrJwaD9FO7s/edit?usp=sharing","Closed","0","122","https://bytexl.app/nimbus-evaluations/4395nbg55"
+"Restaurant Reservation System","This Restaurant Reservation System allows customers to book tables by submitting their guest count, name, and phone number via a form. When a reservation is made, the available ""Seats Left"" decrease based on the guest count, and the entry is displayed in a table at the top with columns for the customer’s name, phone, check-in time, checkout status, and a delete option. If the customer clicks ""Click to Checkout"", the checkout time is logged, and the seats are updated. The system also allows deleting entries, where the ""Seats Left"" are adjusted based on whether the customer has checked out. If the guest count exceeds the available seats, an alert appears, and the system ensures that ""Seats Left"" doesn’t go negative or exceed the total capacity. Duplicate names are handled optionally with an alert. This project covers key aspects of dynamic form handling, state management, and table manipulation in a restaurant reservation system. 
+Note : Do not use any backend for this assignment","Closed","0","145","https://bytexl.app/nimbus-evaluations/438cfxajh"
+"Build a Fully Functional Calculator Web Application using JSP & Servlets","Develop a fully functional calculator using JSP, Servlets, and CSS that supports basic ( +, -, *, / ) . The UI should be responsive and interactive, resembling a real calculator. Implement a clear (C) button, and error handling for invalid inputs like division by zero. Bonus: Add calculation history and keyboard support.
+
+Push your complete project to GitHub and include a README.md with:
+
+Project Overview & Features
+Code Explanation (JSP & Servlet interaction)
+Screenshots & Sample Outputs
+Challenges Faced & Learnings
+📌 Evaluation Criteria (Total: 100 Marks)
+✔️ Functionality (20 Marks) – Working basic & advanced features
+✔️ UI/UX (20 Marks) – Clean design & responsiveness
+✔️ Code Quality (20 Marks) – Proper structure & efficiency
+✔️ Documentation (40 Marks) – Clear explanation & screenshots","Closed","0","129","https://bytexl.app/nimbus-evaluations/437t2jmc9"
